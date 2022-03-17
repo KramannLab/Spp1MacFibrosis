@@ -174,11 +174,9 @@ pseudotime %>% as.data.frame() %>%
 curves = colnames(pseudotime)
 
 
-pdf(file = paste0(outdir, 'slingshot_curves.pdf'), width = 7.2)
-print(plot(sds$reducedDim, col = C, pch = 16, cex = 0.5) +
-                lines(SlingshotDataSet(sds), lwd = 2, col = 'black') 
-		)
-dev.off()
+
+
+
 
 
 
