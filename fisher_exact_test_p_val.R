@@ -71,14 +71,15 @@ if ( rds == "WTvsCxcl4KO_IRI_snRNA_Integrated.h5ad.to.RDS")  {
 		conditions <- R$condition %>% unique() %>% as.character() %>% mixedsort()
 		R <- R[,!R$cell_type %in% remove_celltype ]
 
-	} else if ( rds == "Rao_MPC_07_seurat_obj_after_Clusterexclusion.rds" ) {
+	} else if ( rds == "Rao_MPC_07_seurat_obj_after_Clusterexclusion.rds" ) { ## public data 
 
 		assay_name <- DefaultAssay(R)
 		R$cell_type <- R$seurat_clusters %>% as.character()
 	        R$condition <- R$disease	
 		conditions <- R$disease %>% unique() %>% as.character() %>% mixedsort()
 
-	} else if ( rds == "huCKD_CD10Neg_MPC_05_seurat_object.RDS" ) {
+	} else if ( rds == "huCKD_CD10Neg_MPC_05_seurat_object.RDS" ) { ## public data
+ 
 		Idents(R) <- "Annotation_Level_1"
 		R$condition <- R$Kidney.Function
 		R$cell_type <- Idents(R) %>% as.character()
