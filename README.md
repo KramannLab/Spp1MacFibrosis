@@ -14,13 +14,17 @@ CXCL4_IRI_IntegratedAnalysis_P.R<br>
 CXCL4_IRI_Leuko_Sublcluster_P.R<br>
 Immune_snRNA_Forte_Correlation_P.R<br>
 CXCL4_IRI_Fibro_Sublcluster_P.R<br>
-Cell cell communication<br>
+cci_CellChat.ALL.DB.R<br>
+cci_CellChat.ALL.DB.compare.R<br>
+cci_CellChat.ALL.DB.fisher_p_value_make_bar.R<br>
+fisher_exact_test_p_val.R<br>
 
 ##### Single-cell analyses (Public datasets)
 ###### Forte MI Immue (PMID: 32130914)
 Forte_MI_FirstAnalysis_P.R<br> 
 Forte_MI_Immune_P.R<br>
-Trajectory Analyses<br>
+trajectory_Slingshot_to_Monocle.R<br>
+trajectory_Slingshot_to_Monocle.function.R<br>
 
 ###### Rao et al., Human heart failure (PMID: 34601654)
 MIrao_scRNA_FirstAnalysis_P.R<br>
