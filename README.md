@@ -1,4 +1,4 @@
-# A Spp1-macrophage-platelet-axis orchestrates myofibroblast activation in fibrosis /
+## A Spp1-macrophage-platelet-axis orchestrates myofibroblast activation in fibrosis 
 
 #### Summary  
 
